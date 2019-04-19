@@ -3,46 +3,116 @@
   <head>
     <title>City College HTML5 Intro class</title>
     <meta charset="utf-8" />
+
+<!-- inline CSS, usually CSS is put on a different file -->
+
+    <style type="text/css"> 
+
+      video {
+        width: 100%;
+      }
+
+
+      h1 {
+        font-family: Helvetica;
+        font-size: 35px;
+      }
+
+      h2 {
+        font-family: Helvetica;     
+      }
+
+    </style>
+
   </head>
   <body>
 
-    <video width="720" height="405" controls>
+    <video autoplay loop muted>
         <source src="media/best_buddies.mp4" type="video/mp4">
       </video>
 
-    <!-- Wrapper -->
+      
+      <!--  without CSS
+      <video width="720" height="405" autoplay loop muted>
+        <source src="media/best_buddies.mp4" type="video/mp4">
+      </video> --> 
+   
+
+ <!-- Wrapper -->
     <div>
       <!-- Header -->
-      <header></header>
+      <header>
+
+        <h1>
+          Top Doggos in the World
+        </h1>
+
+        <h2>
+          Hint: they're all good boys
+        </h2>
+
+      </header>
 
 
       <!-- Nav -->
       <nav id="nav">
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href= "index.html">Home</a></li>
+          <li><a href= "about.html">About</a></li>
+          <li><a href= "media.html">Good Boys</a></li>
+          <li><a href= "media2.html">More Good Boys</a></li>
+          <li><a href= "contact.html">Contact</a></li>
         </ul>
       </nav>
 
       <!-- Main -->
       <div>
         <!-- Introduction -->
-        <section></section>
+        <section>
+        	<div>
+
+        		<h1>
+        			Woof Woof
+        		</h1>
+        		<p>
+        		 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit cursus risus at ultrices mi. Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Auctor neque vitae tempus quam.
+        		 </p>
+
+        	<a href="media.html"><button>Go To The Good Boys</button></a>
+
+        	</div>
+
+        	<figure> 
+        		<img src="images/doggo.jpg" height="300" />
+        	</figure>
+
+        </section>
 
         <!-- First Section -->
         <section>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-          <footer>
-            <ul>
-              <li></li>
-            </ul>
-          </footer>
+          <h1>Good Boy Criteria</h1>
+
+          <div>
+				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.54 102.45"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>DOGPRINT</title><path class="cls-1" d="M104.55,53.53a18,18,0,0,0-12.06-4c-6.54-1.7-13.74-.13-17.81,5.56a31.86,31.86,0,0,0-15.6-2.84,21.57,21.57,0,0,0-18.75,15,12.51,12.51,0,0,0-1.42,2.22c-2.11,4.3-1.24,9.45,0,13.87,2.4,8.69,7.49,16.29,13.29,23.06,5.28,6.15,11.81,14.16,20.31,15.4a11.06,11.06,0,0,0,5.35-.12,5.42,5.42,0,0,0,5.81-3.21c4.11-3.4,7.48-8.5,10.52-12.07,5.7-6.7,14-13.92,15.93-22.86a14.65,14.65,0,0,0,.29-1.84,29.56,29.56,0,0,0,1.31-4.16C113.71,69,111.57,59.21,104.55,53.53Z" transform="translate(-15.1 -19.64)"/><path class="cls-1" d="M29,38C22,36.16,15.11,42,15.1,49c0,7.45,7.22,12,14.07,10.78a4.82,4.82,0,0,0,3.52-3.3,8.42,8.42,0,0,0,2.4-1.63C40.93,49.08,35.79,39.82,29,38Z" transform="translate(-15.1 -19.64)"/><path class="cls-1" d="M63.12,22.24c-6-4.76-16-2.9-18.32,4.92-2.45,8.27,4.52,14.77,11.88,16.62A5.11,5.11,0,0,0,63,39.91C69,36,68.91,26.85,63.12,22.24Z" transform="translate(-15.1 -19.64)"/><path class="cls-1" d="M88.84,24.85a9.54,9.54,0,0,0-12.33,3.08,10,10,0,0,0-1.62,6.39c.15,2,1,3.82,1.14,5.77.26,2.84,2.24,5.28,5.28,5.28a5.62,5.62,0,0,0,5-3.49,9.3,9.3,0,0,0,6.43-5A9.4,9.4,0,0,0,88.84,24.85Z" transform="translate(-15.1 -19.64)"/><path class="cls-1" d="M120.78,28.8c-6.77-3.72-15.8,1-16.16,8.64a9.09,9.09,0,0,0-.5,3.5c.43,9,11.19,12.6,17.87,7.43S128.2,32.88,120.78,28.8Z" transform="translate(-15.1 -19.64)"/></svg>
+          	<p>
+          		Lorem ipsum dolor sit amet,
+          	</p>
+          </div>
+
+                    <div>
+				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.65 92.86"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>DOGBONE</title><path class="cls-1" d="M118.11,32c-2.4-3.84-6.2-4.15-10.23-4.86C99.42,25.66,97.55,13,87,16.87c-4.82,1.79-7.52,6.34-9.29,10.88-1.44,3.71-2.46,7.3-5.15,10.38a52.66,52.66,0,0,1-6,5.5c-9.73,8.22-17.44,18-25,28.18-7.39-1.38-15.85,1.57-18.72,9-2.62,6.82,1.05,15.75,8.31,17.86,2.39.69,4.76.2,7.19.32,2.89.15,4.13,1.39,6,3.45,2.68,3,5.33,6.14,9.64,6.47A11.91,11.91,0,0,0,63.34,105a15.22,15.22,0,0,0,3.14-5c1.17-3,.61-6.33,1.7-9.33,1.83-5,8.47-9.85,12.16-13.63L94.8,62.24c4.2-4.3,8.31-10,14-12.26,3.94-1.57,7.41-3,9.59-6.94A11.13,11.13,0,0,0,118.11,32ZM112.5,38.5a5.62,5.62,0,0,1-3.3,3.87c-3.32,1.73-6.42,2-9.31,4.66-6.67,6-12.7,13-19,19.43-5.89,6-13.67,12-18.05,19.31-2,3.28-1.67,6.48-2.46,10.06-.92,4.1-4.74,8.12-8.63,4.51-2.33-2.17-3.89-5-6.68-6.67-3.65-2.21-7.17-.87-11.06-1.59s-6.06-5.31-4.47-9c1.8-4.1,6.88-5.35,10.89-4.44a3.36,3.36,0,0,0,3.25-.91,3.58,3.58,0,0,0,3.25-1.49A202.93,202.93,0,0,1,62.78,56.68c5.33-5.59,12.3-9.86,16.79-16.18,3-4.16,7.13-23,14.48-15.4,1.94,2,3.34,4.44,5.57,6.19,2.58,2,5.13,2.33,8.26,2.86C110.51,34.59,113.12,35,112.5,38.5Z" transform="translate(-22.04 -16.13)"/></svg>
+          	<p>
+          		Lorem ipsum dolor sit amet,
+          	</p>
+          </div>
+
+                    <div>
+				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.6 101.41"><defs><style>.cls-1{fill:#231f20;}</style></defs><title>DOGBALL</title><path class="cls-1" d="M110.22,29.74C103.55,21.13,95,14.53,84.05,12.88,72.91,11.2,60.24,11.41,49.7,15.7c-22.28,9.07-33.58,34-26.5,56.64a2.88,2.88,0,0,0-.64,2.15c2.11,23.61,25.67,35.41,46.75,38.36A46.52,46.52,0,0,0,118,86.62C126.88,68,122.63,45.75,110.22,29.74ZM30.28,75.65a2.88,2.88,0,0,0,.41-3C24.2,55,30.28,35.05,46.56,25.09a36.85,36.85,0,0,1,8.25-3.73c1.07,10.91.49,22-2.92,32.45a53.32,53.32,0,0,1-8,15.54C41.8,72.18,33.39,80.29,30.28,75.65Zm1.85,8a12.56,12.56,0,0,0,4.76-.24c7.48-1.88,12.82-9.4,16.45-15.72,8.28-14.39,10.13-31.64,8.3-47.92a75.21,75.21,0,0,1,12.61-.66c10.26.21,18.43,2.47,25.78,9.62a90,90,0,0,0-7.51,72.68,3.69,3.69,0,0,0,.63,1.16,34.91,34.91,0,0,1-12.85,3.73C63.64,107.76,40,99.91,32.13,83.69Zm82.13-7A42.57,42.57,0,0,1,99.05,98.9,83.08,83.08,0,0,1,105,34.32C114,46.21,118.33,62.14,114.26,76.72Z" transform="translate(-21.1 -11.9)"/></svg>
+          	<p>
+          		Lorem ipsum dolor sit amet,
+          	</p>
+          </div>
+
         </section>
 
         <!-- Second Section -->
