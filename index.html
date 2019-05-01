@@ -4,6 +4,11 @@
     <title>City College HTML5 Intro class</title>
     <meta charset="utf-8" />
 
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 <!-- inline CSS, usually CSS is put on a different file -->
 
     <style> 
@@ -13,12 +18,43 @@
       }
 
       h1 {
-        font-family: Helvetica;
-        font-size: 35px;
+        font-family: 'Faster One', cursive;
+        font-size: 60px;
+        line-height: 50px;
       }
 
-      h2 {
-        font-family: Helvetica;     
+      h2, h3 {
+		font-family: 'Cormorant Unicase', serif;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 30px;
+      }
+
+      body {
+		font-family: 'Cormorant Unicase', serif;
+      	font-size: 400;
+      }
+
+      #nav {
+
+      }
+
+      #nav ul {
+      	list-style: none;
+      }
+
+      #nav ul li {
+      	display: inline;
+      	padding: 5%;
+      }
+
+     .social-media {
+      	list-style: none;
+      }
+
+      .social-media li {
+      	display: inline;
+      	padding: 3px;
       }
 
     </style>
@@ -175,11 +211,27 @@
           <li>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit cursus risus at ultrices mi.
             </p>
-            <ul>
-              <li>facebook</li>
-              <li>twitter</li>
-              <li>instagram</li>
-              <li>youtube</li>
+            <ul class= "social-media">
+              <li>
+              	<a href="https://www.facebook.com/woofwoofborkbork" title="link to facebook">
+              		<i class="fab fa-facebook-square"></i>
+              	</a>
+              </li>
+              <li>
+              	<a href="https://twitter.com/woofwoofborkbork" title="link to twitter">
+              		<i class="fab fa-twitter-square"></i>
+              	</a>
+              </li>
+              <li>
+              	<a href="https://www.instagram.com/woofwoofborkbork" title="link to instagram">
+              		<i class="fab fa-instagram"></i>
+              	</a>
+              </li>
+              <li>
+              	<a href="https://www.youtube.com/woofwoofborkbork" title="link to youtube">
+              		<i class="fab fa-youtube"></i>
+              	</a>
+              </li>
             </ul>
           </li>
         </ul>
